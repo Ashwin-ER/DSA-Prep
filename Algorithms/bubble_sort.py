@@ -10,7 +10,7 @@ def bubble_sort(arr):
             break
     return arr 
     
-    return arr          
+             
              
 
 if __name__ == '__main__':
