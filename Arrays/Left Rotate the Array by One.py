@@ -8,3 +8,5 @@ for i in range(len(a) - 1):
 a[len(a) - 1] = temp
 #a.append(temp) #wrong
 print(a)
+
+#output =[4,51,6, 1,2,3, 7]
