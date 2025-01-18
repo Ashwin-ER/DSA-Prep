@@ -16,7 +16,7 @@ if __name__ == "__main__":
     rotate(arr)
     print("Rotated Image")
     for i in range(len(arr)):
-        for j in range(len(arr[0])):
+        for j in range(len(arr)):
             print(arr[i][j], end=" ")
         print()
     
