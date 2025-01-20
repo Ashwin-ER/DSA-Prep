@@ -1,5 +1,5 @@
 #MY BRUTE APPROACH 
-def lower_bound(a, target):
+def (a, target):
     n = len(a)
     for i in range(n):
         if a[i] >= target: 
