@@ -1,4 +1,4 @@
-def duplicate(a):
+def dup(a):
     dup = set()
     seen = set()
     for char in a:
@@ -11,4 +11,4 @@ def duplicate(a):
 
 if __name__ == "__main__":
     a = 'AshwinAshwin'
-    duplicate(a)
+    dup(a)
