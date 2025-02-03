@@ -9,3 +9,23 @@ def maxProfit(arr):
 arr = [7, 1, 5, 3, 6, 4]
 maxPro = maxProfit(arr)
 print("Max profit is:", maxPro)
+
+
+
+#Next
+def maxProfit(arr,n):
+  small = arr[0]
+  maxi = 0
+  for i in range(1,n):
+    small = min(small, arr[i])
+    maxi = max(maxi, arr[i]-small)
+    
+  
+  return maxi
+
+  
+if __name__ == "__main__":
+    arr =  [7, 10, 1, 3, 6, 9, 2]
+    n = len(arr)
+    print(maxProfit(arr, len(arr)))
+   
