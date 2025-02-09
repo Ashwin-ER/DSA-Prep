@@ -1,4 +1,4 @@
-def selection_sort(arr):
+def selection_sort():
     n = len(arr)
     for i in range(n):
         min_index = i
@@ -8,4 +8,4 @@ def selection_sort(arr):
                 arr[i], arr[min_index] = arr[min_index], arr[i]
     return arr
 arr = [89, 78, 61, 53, 23, 21, 17, 12, 9, 7, 6, 78,7 ,2, 2, 1]
-print(selection_sort(arr))
+print(selection_sort())
