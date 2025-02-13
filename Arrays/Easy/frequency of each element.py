@@ -1,15 +1,15 @@
-def count_frequency(arr):
-
-    frequency = {}  # Initialize an empty dictionary
-    for element in arr:
-        if element in frequency:
-            frequency[element] += 1  # Increment count if element exists
+def countFreq():
+    frequency={}
+    for i in arr:
+        if i in frequency:
+            frequency[i] = frequency[i]+1
         else:
-            frequency[element] = 1   # Add element with count 1 if it's new
+            frequency[i]=1
     return frequency
 
-# Example usage:
-my_list = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
-result = count_frequency(my_list)
-print(result)  # Output: {1: 1, 2: 2, 3: 3, 4: 4}
 
+
+if __name__ == "__main__":
+    arr = [10,5,10,15,10,5]
+    n = len(arr)
+    print(countFreq())
