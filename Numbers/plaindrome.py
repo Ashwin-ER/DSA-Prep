@@ -1,9 +1,9 @@
 def palindeome(n):
     rev = 0
     while n>0:
-        ld = n % 10
+        las = n % 10
 
-        rev = (rev*10) + ld
+        rev = (rev*10) + las
 
         n = n //10
     return rev
