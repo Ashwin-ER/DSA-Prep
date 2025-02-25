@@ -6,7 +6,7 @@ def quick_sort(arr):
     
     left = []
     right = []
-    mid = []
+    mid = [
     
     pivot = random.choice(arr)
     
