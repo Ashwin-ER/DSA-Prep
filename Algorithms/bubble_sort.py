@@ -16,7 +16,7 @@ def bubble_sort(arr):
 if __name__ == '__main__':
     arr = [99, 0, 5, 20, 123, 0, -1, 72, 21, 22, 13, 8, 7, 67, 29, 1, 2, 4, -20]
     arr1 = ["mona", "dhaval", "aamir", "tina", "chang"]
-
+    n = len(arr1)
     print(bubble_sort(arr))
     print(bubble_sort(arr1))
     
